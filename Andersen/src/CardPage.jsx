@@ -5,6 +5,7 @@ import { cardsData } from "./assets/data/cardsData";
 
 function CardPage() {
   const { id } = useParams();
+  
 
   const card = cardsData.find(c => c.id === Number(id));
 
